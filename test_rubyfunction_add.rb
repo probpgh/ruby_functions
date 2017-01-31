@@ -14,5 +14,9 @@ class Test_addition < Minitest::Test #corrected an error wherein the first lette
 		results = add(1,b) #variables defined as 1 and b
 		assert_equal(false, results)
 	end
-	
+
+	def Test_add_4_plus7
+		results = add(4,7) #variables defined as 4 and 7
+		assert_equal(11, results)
+	end
 end
